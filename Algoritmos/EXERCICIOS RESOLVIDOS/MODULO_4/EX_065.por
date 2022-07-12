@@ -1,6 +1,6 @@
 programa
 {
-	inclua biblioteca Util --> u
+	inclua biblioteca Util --> u
 	
 	funcao inicio()
 	{
@@ -8,7 +8,7 @@ programa
 		inteiro num[4][4], soma=0
 
 		//entradas
-		escreva("\n----|| EXERCICIO 065 - SOMADOR COLUNAS ||----")
+		escreva("----|| EXERCICIO 065 - SOMADOR COLUNAS ||----")
 		escreva("\nO sistema ira sortear um conjunto de numeros...\n")
 
 		//sorteio para preenchimento da matriz
@@ -19,7 +19,7 @@ programa
 		}
 
 		//imprimir os valores sorteados na tela em forma de tabela
-		escreva("\nA MATRIZ gerada foi:\n\n")
+		escreva("\nA MATRIZ gerada foi: \n\n")
 		para(inteiro l=0;l<u.numero_linhas(num);l++){
 			para(inteiro c=0;c<u.numero_colunas(num);c++){
 				se(num[l][c]<10){
@@ -71,7 +71,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 250; 
+ * @POSICAO-CURSOR = 521; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {num, 8, 10, 3};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
