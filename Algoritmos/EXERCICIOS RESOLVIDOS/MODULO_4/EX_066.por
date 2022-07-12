@@ -5,7 +5,7 @@ programa
 	funcao inicio()
 	{
 		//variaveis
-		inteiro num[2][2], maior=0
+		inteiro num[3][3], maior=0
 		cadeia teclado
 
 		//entradas
@@ -85,7 +85,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 548; 
+ * @POSICAO-CURSOR = 129; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
