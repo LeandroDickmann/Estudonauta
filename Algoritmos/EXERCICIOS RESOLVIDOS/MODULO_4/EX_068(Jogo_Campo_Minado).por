@@ -4,7 +4,32 @@ programa {
     inclua biblioteca Tipos --> t
     
     funcao inicio() {
-    //variaveis
+	    	caracter resp='s'
+	    	cadeia entrada
+		enquanto(verdadeiro){
+			jogar()
+			
+			enquanto(verdadeiro){
+				escreva("\n\nVoce gostaria de jogar novamente? [S/N]: ")
+				leia(entrada)
+				se(t.cadeia_e_caracter(entrada)==verdadeiro){
+					resp=t.cadeia_para_caracter(entrada)
+					se(resp=='S' ou resp=='s' ou resp=='N' ou resp=='n'){
+						pare
+					}
+				}senao{
+					escreva("\n\n|| ERRO || - Voce nao digitou um CARACTER VALIDO! 'S' ou 'N'")
+				}
+			}
+			se(resp=='N' ou resp=='n'){
+				pare	
+			}
+			limpa()
+	    }
+    }    
+    
+    funcao jogar(){
+    	//variaveis
         inteiro num[4][5] , tiro_bom=1, bomba=0 , linha=0, coluna=0, acertou=0, errou=0, limpeza=0
         caracter tabela[4][5]
         cadeia teclado
@@ -49,7 +74,7 @@ programa {
             		escreva("\n------------|| ERRO ||---------------")
             		escreva("\nVoce nao digitou um numero valido INTEIRO")
             		escreva("\nTente NOVAMENTE!")
-            		escreva("\n-------------------------------------")
+            		escreva("\n-------------------------------------\n")
             	}
             }
 
@@ -69,7 +94,7 @@ programa {
             		escreva("\n------------|| ERRO ||---------------")
             		escreva("\nVoce nao digitou um numero valido INTEIRO")
             		escreva("\nTente NOVAMENTE!")
-            		escreva("\n-------------------------------------")
+            		escreva("\n-------------------------------------\n")
             	}
             }
             
@@ -117,9 +142,10 @@ programa {
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 3978; 
+ * @POSICAO-CURSOR = 133; 
+ * @DOBRAMENTO-CODIGO = [30];
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {num, 8, 16, 3}-{coluna, 8, 59, 6};
+ * @SIMBOLOS-INSPECIONADOS = {num, 33, 16, 3};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
