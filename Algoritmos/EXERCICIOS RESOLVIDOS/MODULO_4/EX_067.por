@@ -2,6 +2,7 @@ programa
 {
 	inclua biblioteca Util --> u
 	inclua biblioteca Tipos --> t
+	inclua biblioteca Matematica --> m
 	funcao inicio()
 	{
 		//variaveis
@@ -37,7 +38,7 @@ programa
 		media = (soma /(u.numero_linhas(num)*u.numero_colunas(num)))
 		//imprimi o valor da media
 		escreva("\n==============================================")
-		escreva("\nO valor total da media do numeros e: ",media)
+		escreva("\nO valor total da media do numeros e: ",m.arredondar(media, 2))
 		escreva("\n==============================================")
 
 		//teste para verificar se ha numeros ACIMA DA MEDIA na SEGUNDA LINHA
@@ -98,7 +99,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 895; 
+ * @POSICAO-CURSOR = 1097; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
