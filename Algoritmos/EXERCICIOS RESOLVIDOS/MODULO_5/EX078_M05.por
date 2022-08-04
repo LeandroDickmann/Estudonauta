@@ -36,6 +36,7 @@ programa
 			escreva(num[p]+" - ")
 			u.aguarde(500)
 		}
+		escreva("FIM\n")
 	}
 	
 	funcao inicio()
@@ -55,8 +56,8 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 800; 
- * @DOBRAMENTO-CODIGO = [14, 25, 32];
+ * @POSICAO-CURSOR = 738; 
+ * @DOBRAMENTO-CODIGO = [14, 25];
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
